@@ -29,22 +29,25 @@ For running the server type on terminal:
 [Django Documentation, part 2](https://docs.djangoproject.com/en/4.1/intro/tutorial02/)
 - Setting up the mySQL database
 - Creating models
-- Activating models.
+- Activating models
 - Modifying API
-- Creating an admin user.
+- Creating an admin user
 ### Admin details:
 > http://127.0.0.1:8000/admin/ 
-- Username: `pgmar`
-- Email: `example@admin.com`
-- Password: `123456`
+- Username: `maddie`
+- Email: `22773@student.dorset-college.ie`
+- Password: `739295`
 
 ## Writing your first Django app, part 3:
 [Django Documentation, part 3](https://docs.djangoproject.com/en/4.1/intro/tutorial03/)
-- Writing more views
+- Writing more views using arguments
 - Raising a 404 error
-- Use the template system
-- Removing hardcoded URLs in templates
-- Namespacing URL names
+- Using the template system
+- Removing hardcoded URLs in templates, and Namespacing URL names:
+by creating a template directory inside a poll directory and inside this directory an index.html.
+Using this namespacing is ideal so the Django chooses the right template for our specific polls app.
+So 
+
 
 ## Writing your first Django app, part 4:
 [Django Documentation, part 4](https://docs.djangoproject.com/en/4.1/intro/tutorial04/)

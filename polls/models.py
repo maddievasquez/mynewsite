@@ -1,13 +1,14 @@
 # Create your models here.
 import datetime
 from django.db import models
+from django.utils import timezone
 
 
 # Models are the database layout with all the additional metadata needed.
 # Our polls app will have 2 models
 class Question(models.Model):
     # ...
-    def was_published_recently(self, timezone=None):
+    def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
     def __str__(self):
