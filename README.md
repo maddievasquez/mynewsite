@@ -46,8 +46,7 @@ For running the server type on terminal:
 - Removing hardcoded URLs in templates, and Namespacing URL names:
 by creating a template directory inside a poll directory and inside this directory an index.html.
 Using this namespacing is ideal so the Django chooses the right template for our specific polls app.
-So 
-
+- Add namespace to URL
 
 ## Writing your first Django app, part 4:
 [Django Documentation, part 4](https://docs.djangoproject.com/en/4.1/intro/tutorial04/)
@@ -58,7 +57,8 @@ So
 ## Writing your first Django app, part 5:
 [Django Documentation, part 5](https://docs.djangoproject.com/en/4.1/intro/tutorial05/)
 - Introducing automated testing
-- Create a test to expose the bug
+- Create a test to expose the bug in the models file
+- Improving tour view file
 
 ## Writing your first Django app, part 6:
 [Django Documentation, part 6](https://docs.djangoproject.com/en/4.1/intro/tutorial06/)
@@ -76,7 +76,6 @@ So
     - Password: `123456`
 - Create a homepage
 - Logout link
-- Conclusion
 
 ## Reset Password:
 [Django Password Reset Tutorial](https://learndjango.com/tutorials/django-password-reset-tutorial)
