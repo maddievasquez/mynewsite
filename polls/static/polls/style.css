@@ -1,0 +1,11 @@
+li a {
+    color: ghostwhite;
+    font-size: 18px;
+    align-content: center;
+    font-family: "Arial Black", serif;
+}
+/* we add an image as a background for our polls app*/
+body {
+    background: white url("images/background.jpg") no-repeat;
+    scroll-behavior: auto;
+}
